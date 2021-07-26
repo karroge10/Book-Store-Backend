@@ -1,5 +1,5 @@
 # Book Store Backend
- Backend build with Node.js and MySQL
+ Backend built with Node.js and MySQL
 
 ## Использование
 
