@@ -2,7 +2,8 @@ const Model = require('../models/model');
 import express, {Application, Request, Response, NextFunction} from 'express';
 import mysql from 'mysql';
 
-// Параметры базы данных и подключение MySQL. 
+// Параметры базы данных и подключение MySQL.
+// удалить 11 строку если нужно создать бд, после создания вставить обратно чтобы подключиться к бд.
 const database = mysql.createConnection({
     host     : 'localhost',
     user     : 'root',
