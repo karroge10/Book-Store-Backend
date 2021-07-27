@@ -14,7 +14,10 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const Model = require('../models/model');
 const mysql_1 = __importDefault(require("mysql"));
-// Параметры базы данных и подключение MySQL
+// Параметры базы данных и подключение MySQL. 
+// Если база данных еще не создана, то сначала убрать из const database - database: 'librarysql',
+// создать бд через http://localhost:3000/createdatabase, 
+// а потом вставить обратно строчку database: 'librarysql', чтобы подключится к бд.
 const database = mysql_1.default.createConnection({
     host: 'localhost',
     user: 'root',
