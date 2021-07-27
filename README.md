@@ -17,7 +17,7 @@
 [http://localhost:3000](http://localhost:3000) в браузере.
 
 ### Если база данных еще не создана:
-Сначала нужно убрать из src/controllers/controller.ts 13 строку (database: 'librarysql'), затем создать бд через `http://localhost:3000/createdatabase`, а потом вставить обратно строку, чтобы можно было подключится к бд.
+Сначала нужно убрать из src/controllers/controller.ts 11 строку (database: 'librarysql'), затем создать бд через `http://localhost:3000/createdatabase`, а потом вставить обратно строку, чтобы можно было подключится к бд.
 ### cоздание таблицы пользователей `http://localhost:3000/createuserstable`.
 ### создание таблицы книг `http://localhost:3000/createbookstable`.
 
